@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+    color: rgba(0,0,0,1);
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.fotoLegenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+
+figure.fotoLegenda img {
+    height: 100%;
+    width: 100%;
+}
+
+figure.fotoLegenda figcaption {
+    background-color: rgba(0,0,0,.4);
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    transition: opacity 1s;
+    width: 100%;
+}
+
+figure.fotoLegenda:hover figcaption{
+    opacity: 1;
+}
