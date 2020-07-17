@@ -1,17 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face{
+    font-family: 'FonteLogo';
+    src: url(../fonts/bubblegum-sans-regular.otf);
+}
+
 body{
-    background-color: white;
+    background-color: #dddddd;
     color: rgba(0,0,0,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#interface {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin: -20px auto 0 auto;
+    padding: 10px;
+    width: 1200px;
 }
 p {
     text-align: justify;
     text-indent: 50px;
 }
 
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header#cabecalho {
+    background: url("../img/glass-logo-peq.jpg") no-repeat 0px 100px;
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+header#cabecalho h1 {
+    font-family: 'FonteLogo', Helvetica, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+
 /* Formatação de imagens com legendas */
 
 figure.fotoLegenda {
     border: 8px solid white;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
     position: relative;
 }
 
@@ -46,7 +95,7 @@ nav#menu h1{
 }
 nav#menu ul {
     list-style: none;
-    right: 0;
+    left: 270px;
     position: absolute;
     text-transform: uppercase;
     top: -20px;
@@ -56,4 +105,115 @@ nav#menu li {
     display: inline-block;
     margin: 2px;
     padding: 10px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: #606060;
+    color: #ffffff;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #ffffff;
+}
+
+section#corpo {
+    border-right: 1px solid #606060;
+    display: block;
+    float: left;
+    padding-right: 15px;
+    width: 700px;
+}
+
+article#noticiaPrincipal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0 5px 10px;
+    margin: 10px;
+}
+header#cabecalhoArticle h1{
+    font-family: 'FonteLogo', Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header#cabecalhoArticle h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px
+}
+header#cabecalhoArticle h3{
+    font-size: 12px;
+    color: #606060;
+}
+.direita {
+    text-align: right;
+}
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    /* vertical-align: center; */
+}
+table#tabelaspec td.ce {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+}
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+aside#lateral{
+    display: block;
+    float: right;
+    width: 450px;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+aside#lateral h1 {
+    font-family: 'FonteLogo', Helvetica, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
