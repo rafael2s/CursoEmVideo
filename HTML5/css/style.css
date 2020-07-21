@@ -30,7 +30,7 @@ a:hover{
 }
 
 header#cabecalho {
-    background: url("../img/glass-logo-peq.jpg") no-repeat 0px 100px;
+    background: url("../img/glass-logo-peq.jpg") no-repeat 0px 85px;
     border-bottom: 1px #606060 solid;
     height: 150px;
 }
@@ -52,8 +52,8 @@ header#cabecalho h2 {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 750px;
-    top: 40px;
+    left: 1050px;
+    top: 65px;
 }
 
 /* Formatação de imagens com legendas */
@@ -95,7 +95,7 @@ nav#menu h1{
 }
 nav#menu ul {
     list-style: none;
-    left: 270px;
+    left: 642px;
     position: absolute;
     text-transform: uppercase;
     top: -20px;
