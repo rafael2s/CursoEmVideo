@@ -2,8 +2,8 @@
 
 Projetos feitos em cursos na udemy
 
-- [ ] HTML5 [40 Horas]
-- [ ] Algoritmo [40 Horas]
+- [x] HTML5 [40 Horas]
+- [x] Algoritmo [40 Horas]
 - [ ] Javascript [40 Horas]
 - [ ] Git e GitHub [20 Horas]
 
