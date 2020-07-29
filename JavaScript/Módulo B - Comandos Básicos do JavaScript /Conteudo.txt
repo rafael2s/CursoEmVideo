@@ -1,0 +1,13 @@
+Dicas:
+- Não pule
+- Anote tudo
+- Duas telas
+- Pratique
+- Compartilhe
+
+
+
+Conteudo
+- Armazenamento dados
+- Tratamento de dados
+- Operações com dados
