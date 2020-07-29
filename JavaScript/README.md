@@ -6,15 +6,23 @@ Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprend
 
 #### Módulo A - Conhecendo o JavaScript 
 
-* O que JS é capaz de fazer?;
-* Dicas de aprendizagem;
-* JS versus ECMAScript;
-* Requisitos de software?;
-* Primeiros scripts em JS;
+* O que JS é capaz de fazer?
+* Dicas de aprendizagem
+* JS versus ECMAScript
+* Requisitos de software?
+* Primeiros scripts em JS
 
 #### Módulo B - Comandos Básicos do JavaScript 
 
+* Armazenamento dados
+* Tratamento de dados
+* Operações com dados
+
 #### Módulo C - Entendendo o DOM
+
+* Document Object Model (DOM)
+* Árvore DOM
+* Manipulando DOM
 
 #### Módulo D - Condições em JavaScript
 
