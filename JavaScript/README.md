@@ -26,6 +26,12 @@ Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprend
 
 #### Módulo D - Condições em JavaScript
 
+* Condições simples
+* Condições Compostas
+* Condições Aninhadas
+* Condições Múltiplas
+* Exercícios Propostos
+
 #### Módulo E - Repetições em JavaScript
 
 #### Módulo F - Avançando os estudos em JavaScript
