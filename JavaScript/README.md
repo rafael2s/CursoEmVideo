@@ -34,6 +34,11 @@ Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprend
 
 #### Módulo E - Repetições em JavaScript
 
+* Repetiçoes com teste no início - while
+* Repetiçoes com teste no fina - do while
+* Repetiçoes com controle - for
+* Exercícios propostos
+
 #### Módulo F - Avançando os estudos em JavaScript
 
 [Curso em video - Gustavo Guanabara](https://www.cursoemvideo.com/course/javascript/)
