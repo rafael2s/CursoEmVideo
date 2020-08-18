@@ -41,3 +41,10 @@ function fatorial(n){
     }
     console.log(fatorial(5))
 }
+
+let n1m = 8;
+n1m **=2;
+console.log(n1m)
+
+let s = 'JavaScript'
+console.log(s.toUpperCase())

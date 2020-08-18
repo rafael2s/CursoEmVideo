@@ -41,5 +41,11 @@ Curso de linguagem JavaScript, voltado para iniciantes e para quem quiser aprend
 
 #### Módulo F - Avançando os estudos em JavaScript
 
+* Variáveris compostas
+* Uso de funções e eventos
+* Passagem de parâmetros
+* Exercícios propostos
+* Próximos passos
+
 [Curso em video - Gustavo Guanabara](https://www.cursoemvideo.com/course/javascript/)
 
