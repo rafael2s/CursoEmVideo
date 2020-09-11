@@ -14,8 +14,8 @@ public class Lutador {
     //Métodos Públicos
     public void apresentar(){
         System.out.println("-----------------------------------------------");
-        System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.getNacionalidade());
-        System.out.println("Diretamente de " + this.getNacionalidade());
+        System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.getNome());
+        System.out.println("Diretamente da " + this.getNacionalidade());
         System.out.println("com " + this.getIdade() + " anos e " + this.altura);
         System.out.println("pesando " + this.getPeso() + "Kg");
         System.out.println(this.getVitorias() + " vitórias");
@@ -32,7 +32,7 @@ public class Lutador {
         this.setVitorias(getVitorias() + 1);
     }
     public void perderLuta(){
-        this.setDerrotas(getDerrotas() - 1);
+        this.setDerrotas(getDerrotas() + 1);
     }    
     public void empatarLuta(){
         this.setEmpates(getEmpates() + 1);
