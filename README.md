@@ -6,7 +6,7 @@ Projetos feitos em cursos na udemy
 - [x] Algoritmo [40 Horas]
 - [x] Javascript [40 Horas]
 - [ ] Git e GitHub [20 Horas]
-- [ ] Java Básico [40 Horas]
-- [ ] Java POO [40 Horas]
+- [x] Java Básico [40 Horas]
+- [x] Java POO [40 Horas]
 
 Site: https://www.cursoemvideo.com/
